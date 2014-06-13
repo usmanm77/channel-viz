@@ -12,12 +12,12 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
+	var defaultKey		= 'c9abcXzY6Hl2fo6nFKauBjiP8wgIyjt24rsJap2nAKA4403i', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [507079534], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'Energy Monitoring & Control with Pandaboard', // Replaces Xively logo in the header
+		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
+		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
